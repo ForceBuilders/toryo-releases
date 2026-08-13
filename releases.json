@@ -9,11 +9,6 @@
       "sha256": null
     },
     {
-      "name": "toryo-0.1.0-darwin-arm64.tar.gz",
-      "size": 31164823,
-      "sha256": null
-    },
-    {
       "name": "toryo-0.2.0-darwin-arm64.tar.gz",
       "size": 31222556,
       "sha256": "94bc2bfb4074396a1e28d69b23585773ed346af14a2fef8e91d00da53972ecbc"
