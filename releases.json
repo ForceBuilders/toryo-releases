@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": "v0.2.0",
-  "publishedAt": "2026-08-13T23:09:24.959Z",
+  "version": "v0.2.1",
+  "publishedAt": "2026-08-14T14:44:06.862Z",
   "assets": [
     {
       "name": "SHA256SUMS",
@@ -9,14 +9,14 @@
       "sha256": null
     },
     {
-      "name": "toryo-0.2.0-darwin-arm64.tar.gz",
-      "size": 31222556,
-      "sha256": "94bc2bfb4074396a1e28d69b23585773ed346af14a2fef8e91d00da53972ecbc"
+      "name": "toryo-0.2.1-darwin-arm64.tar.gz",
+      "size": 31226669,
+      "sha256": "3986071eda507adacddc7e87ae824ab8807bd98716e2131c74b2c9f613450508"
     },
     {
       "name": "Toryo.dmg",
-      "size": 35769258,
-      "sha256": "aac7b823ddf51bf178594ad2617c40fe3af2d74d6bcf0d983f41e32511e8715e"
+      "size": 35792090,
+      "sha256": "7a94e8f23acda3f128d702ee55d7ac18cd250b32a605b7852aaf89e49b92ee4b"
     }
   ]
 }
