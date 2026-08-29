@@ -143,7 +143,7 @@ echo "extracted to $BIN"
 
 # --- provision --------------------------------------------------------------
 if [ "${TORYO_SKIP_SETUP:-0}" = "1" ]; then
-  echo "TORYO_SKIP_SETUP=1 — skipping 'toryo setup'."
+  echo "TORYO_SKIP_SETUP=1, skipping 'toryo setup'."
 else
   echo "running toryo setup…"
   "$BIN/toryo" setup
@@ -152,10 +152,10 @@ fi
 # Install the operator /-commands (namespaced toryo-*) into both skills roots,
 # ~/.claude/skills and ~/.agents/skills, so every harness picks them up.
 if [ "${TORYO_SKIP_SKILLS:-0}" = "1" ]; then
-  echo "TORYO_SKIP_SKILLS=1 — skipping 'toryo skills install'."
+  echo "TORYO_SKIP_SKILLS=1, skipping 'toryo skills install'."
 else
   echo "installing toryo skills…"
-  "$BIN/toryo" skills install || echo "  (skills install skipped — no bundle found)"
+  "$BIN/toryo" skills install || echo "  (skills install skipped, no bundle found)"
 fi
 
 echo ""
