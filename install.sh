@@ -29,7 +29,7 @@ BIN="$TORYO_HOME/bin"
 # The release signing key's public half. Rotated with
 # `bun scripts/gen-release-keypair.ts`; must stay byte-identical to
 # RELEASE_PUBLIC_KEY in packages/minisign/src/keys.ts, which
-# scripts/tests/install-sh.test.ts asserts.
+# scripts/tests/install-sh.integration.test.ts asserts.
 PUBKEY='untrusted comment: toryo release key C7EE1C6DD07ADC5B
 RWRb3HrQbRzux4O8CkBYUHAQrlJ5pmxQ2a4SaVF6rGE5x+jN0J0J5K4y'
 
@@ -65,7 +65,7 @@ else
   version=""
 fi
 
-# A debugging affordance, and what lets scripts/tests/install-sh.test.ts check
+# A debugging affordance, and what lets scripts/tests/install-sh.integration.test.ts check
 # the mapping above per platform without a network call. Before everything.
 if [ "${TORYO_PRINT_ASSET:-0}" = "1" ]; then
   echo "toryo-${version:-<version>}-${os}-${arch}.tar.gz"
