@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": "v1.6.0",
-  "publishedAt": "2026-11-19T02:50:20.791Z",
+  "version": "v1.6.1",
+  "publishedAt": "2026-11-20T01:54:30.890Z",
   "assets": [
     {
       "name": "SHA256SUMS",
@@ -14,114 +14,114 @@
       "sha256": null
     },
     {
-      "name": "toryo-1.6.0-darwin-arm64.tar.gz",
-      "size": 56293636,
-      "sha256": "3ba5435cbe47e215c8e939070ac2902b6227490714a4cff8effd6ad79d9be0d5"
+      "name": "toryo-1.6.1-darwin-arm64.tar.gz",
+      "size": 56296990,
+      "sha256": "8c6041a4b27b5634b389e3fe3bd5a4916e605bd63ceb7ea86dc93fc3d92dcb28"
     },
     {
-      "name": "toryo-1.6.0-darwin-x64.tar.gz",
-      "size": 59503228,
-      "sha256": "cd9dd6a846fd7e8c03924be605e2f0790d72a9354ed0ad08dd0ccef523dcc839"
+      "name": "toryo-1.6.1-darwin-x64.tar.gz",
+      "size": 59504457,
+      "sha256": "e3f30e6aee488777f996b173e9999d64510448dddeb309fa9c44a0bc9b09def4"
     },
     {
-      "name": "toryo-1.6.0-linux-arm64.AppImage",
-      "size": 166078984,
-      "sha256": "4f74796f8bda6a90a6bf20dc280ff1b2861a5a00fa1f079b33cf3ccb1c8ba732"
+      "name": "toryo-1.6.1-linux-arm64.AppImage",
+      "size": 166074888,
+      "sha256": "791f60c278648ec9268ec298a68676674817da358dad4f7d01d72c0b23c8793e"
     },
     {
-      "name": "toryo-1.6.0-linux-arm64.AppImage.minisig",
+      "name": "toryo-1.6.1-linux-arm64.AppImage.minisig",
       "size": 305,
-      "sha256": "8a95d6a8c6d2adee466e190ec6627ef294d96273f52ddeeb0dd6f69fd291de2f"
+      "sha256": "82e59e619297d082761d0a2c651872bfb30abb5eff061c72978791a20aeb5478"
     },
     {
-      "name": "toryo-1.6.0-linux-arm64.deb",
-      "size": 76312758,
-      "sha256": "cb58551a92319a0d524e50c025e4059769d2c047d4ed046849bde05a62cbed4b"
+      "name": "toryo-1.6.1-linux-arm64.deb",
+      "size": 76313510,
+      "sha256": "d60fa3a66b7ede362ac56016d32dda17568edd9ec8474a2ed54a472ed984796e"
     },
     {
-      "name": "toryo-1.6.0-linux-arm64.rpm",
-      "size": 76312530,
-      "sha256": "9416ab24c4b5ffb4b82769db1a5e708cb191f2d220f1d625782539b291e38c9b"
+      "name": "toryo-1.6.1-linux-arm64.rpm",
+      "size": 76312294,
+      "sha256": "e3d8405276b4e150bd0c5b1c6027fd9521af9d5b196ceae6ef95e60641a380d1"
     },
     {
-      "name": "toryo-1.6.0-linux-arm64.tar.gz",
-      "size": 67588641,
-      "sha256": "77bb52356830e7c404c391d09dafb5c7314edd9d4939dd84484871e2703c83a4"
+      "name": "toryo-1.6.1-linux-arm64.tar.gz",
+      "size": 67592956,
+      "sha256": "aa2d837caa2ad7d8ae1849eeb848bd58d2efaa2adcbb551eab32cbc1080f4bcf"
     },
     {
-      "name": "toryo-1.6.0-linux-x64.AppImage",
-      "size": 170404344,
-      "sha256": "8f3e62c9e82b71a0a1a4c8541c547af76adf4501a8f67dd294d99cc62b89f4b3"
+      "name": "toryo-1.6.1-linux-x64.AppImage",
+      "size": 170400248,
+      "sha256": "43232a8bef1e20b63a20ebdf5b7bde0e60fd91a0c000381bfdd63030c499dd40"
     },
     {
-      "name": "toryo-1.6.0-linux-x64.AppImage.minisig",
+      "name": "toryo-1.6.1-linux-x64.AppImage.minisig",
       "size": 303,
-      "sha256": "d23bb3fb9586b9d596d58eee93c783de2e6c1f420a9a089f736f052b99ed72ea"
+      "sha256": "5d83285a564a352312561a860f22d4d83e990efc7f2dac50a05839adba9b3551"
     },
     {
-      "name": "toryo-1.6.0-linux-x64.deb",
-      "size": 76503226,
-      "sha256": "38546335da8fda42ffe76a7a1f7be73fcb3b215306750b9f5fa0cd599b09359a"
+      "name": "toryo-1.6.1-linux-x64.deb",
+      "size": 76502092,
+      "sha256": "9d870d6b10f3d633358724896eaeee381a50bc80dca28a7a1e9c7d3d5d7b9848"
     },
     {
-      "name": "toryo-1.6.0-linux-x64.rpm",
-      "size": 76502872,
-      "sha256": "690a7ed3edbe68bbdab58d58b2178c76ff302855ad2765d0fc4dd64e400e0909"
+      "name": "toryo-1.6.1-linux-x64.rpm",
+      "size": 76501762,
+      "sha256": "a8986e176a0f8c0edd904a3445d79b5a77c9141975ec3176f5caa83873e3df05"
     },
     {
-      "name": "toryo-1.6.0-linux-x64.tar.gz",
-      "size": 67737005,
-      "sha256": "a70ac13591d99a53ccf1e66c5f3a9fbb3f7bbfa0a8fe6b7b997cdf2bd13d8faf"
+      "name": "toryo-1.6.1-linux-x64.tar.gz",
+      "size": 67742939,
+      "sha256": "74f9204b0dc9be5d3c5d3dc89302c6521a1cbc886c9331ee854d64dc67d57417"
     },
     {
-      "name": "toryo-1.6.0-windows-x64-setup.exe",
-      "size": 55543489,
-      "sha256": "2b992f611f64a01c7acc879900cae940ac55d42d5884a1e6716423162881cd98"
+      "name": "toryo-1.6.1-windows-x64-setup.exe",
+      "size": 55548640,
+      "sha256": "bb7349706f6851373a39bd861085b5061eab6ada6a349793310e079cd7c3e47c"
     },
     {
-      "name": "toryo-1.6.0-windows-x64-setup.exe.minisig",
+      "name": "toryo-1.6.1-windows-x64-setup.exe.minisig",
       "size": 306,
-      "sha256": "b557923d6a98d96db821d94c6c70f82450839b10a02e4b2f743d1b28b07ad94d"
+      "sha256": "39e5a9a51785df09490cadabd7712964c11a0644311845e641b1304b21a4efc8"
     },
     {
       "name": "Toryo-arm64.app.tar.gz",
-      "size": 63685940,
-      "sha256": "1122b69d384f122201f2fe7004cafe96621fa367f7013f5be3e903384587fdf0"
+      "size": 63683522,
+      "sha256": "7441558d40398f0d5c053ab591d353537188d871fc987621a3e5631130110abe"
     },
     {
       "name": "Toryo-arm64.app.tar.gz.minisig",
       "size": 295,
-      "sha256": "72c8ad0704be474a27aa884ac4fcdc99f795f5534cd6764dcfad4a40ea8d2b45"
+      "sha256": "6bd29cbec527f512b149e307b21d08e880422c4e0774bf01dfcfdcfae87023a4"
     },
     {
       "name": "Toryo-arm64.dmg",
-      "size": 63780099,
-      "sha256": "1f845d3e88cb6ee8bb0b298ecd2f6c6f9685b09d5cbc54e950ac8f72c897515d"
+      "size": 63782494,
+      "sha256": "77a9a35f290efd039e3aabb5b286e94e827f40ff0b4e5e03c34dbc144cb23ed3"
     },
     {
-      "name": "toryo-brain-gateway-1.6.0-linux-amd64.tar.gz",
-      "size": 91202092,
-      "sha256": "d06b9f2b8de1f158222e29e9821a6a28fd07b117f8aa0655aaa325ac01a626d6"
+      "name": "toryo-brain-gateway-1.6.1-linux-amd64.tar.gz",
+      "size": 91206937,
+      "sha256": "7e69a943cd4951710fa1dbbf86f6fb2321dd1e4dee8ed231d6f0563f0f4126d7"
     },
     {
-      "name": "toryo-brain-gateway-bundle-1.6.0.tar.gz",
-      "size": 3446,
-      "sha256": "4103cc38e728c75ef2ff2d8b2e1c7849c3be65c26f258a6b1620c0131379bb79"
+      "name": "toryo-brain-gateway-bundle-1.6.1.tar.gz",
+      "size": 3448,
+      "sha256": "083e0655f045bf4eb423ee87af29101a420f08ba204755edb02129fa6acec08e"
     },
     {
       "name": "Toryo-x64.app.tar.gz",
-      "size": 67349914,
-      "sha256": "5de10198951550bd39d6461d752d6df96a5b7d67e2770f9225b49566bc3aa88c"
+      "size": 67355640,
+      "sha256": "9859a3d2b5a190341b0ab2c680b61ce8ef19fba4ddbdac06b973eb9be103ae2c"
     },
     {
       "name": "Toryo-x64.app.tar.gz.minisig",
       "size": 293,
-      "sha256": "dd19f70e8e1b6d6d93d38a9f2af68ce5bb2cfe371f438b8e0cbb3f4c345a2564"
+      "sha256": "e5beb9ad51da61fffa536cac118f68984b2017d20a37a36336078925d4fec2a1"
     },
     {
       "name": "Toryo-x64.dmg",
-      "size": 67325212,
-      "sha256": "0cf0d36e835c1fb0e70448b9dadb3c9ab4027057d3441e69082b2f54bf02019d"
+      "size": 67331364,
+      "sha256": "7c1e24179e73f7fca9952092433211b011f71e0eae191d09467808422f1fc618"
     }
   ]
 }
