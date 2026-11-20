@@ -1,23 +1,23 @@
 {
-  "version": "1.6.0",
-  "notes": "`PRODUCT_VERSION` 1.6.0 · `CONTRACT_VERSION` 4.11.1\n\n1.6.0 adds Herdr as a terminal multiplexer on macOS, with live Dispatch, Sequence and Deputy panes and alerts whenever a gate needs you.\n\n### Added\n\n- **You can run your agents in Herdr instead of tmux on macOS.** Setup asks which multiplexer to use, and toryo can install its Herdr add-ons for you.\n- **Herdr gets Dispatch, Sequence and Deputy panes that update live** as jobs queue, runs finish and Deputy works. Each pane has buttons for the actions you use most.\n- **You're alerted when a gate needs you.** toryo posts a macOS notification, and you can answer a question gate in a dialog without leaving Herdr.\n- **You can follow a sequence run from the terminal** as it moves step by step, and list the gates still waiting on you.\n- **toryo:// links open a job or a run directly in the app.**\n- **The app tells you when a terminal is empty because the agent is running in print mode**, so a blank terminal no longer looks like a stalled agent.\n- **Manage license takes you into the portal already signed in.**\n\n### Fixed\n\n- **Fewer memories are flagged as conflicting.** toryo now checks whether two memories are actually about the same thing before treating them as a conflict.\n- **Claude sessions started by toryo no longer pick up settings from the Claude session you launched toryo from.**\n- **You're told when toryo can't stop a Claude session.** Before, the failure went unreported.",
-  "pub_date": "2026-11-19T02:50:20.791Z",
+  "version": "1.6.1",
+  "notes": "`PRODUCT_VERSION` 1.6.1 · `CONTRACT_VERSION` 4.11.2\n\n1.6.1 makes toryo's background services lighter on your machine when there's no work to do.\n\n### Changed\n\n- **toryo's background services check for work less often while they're idle**, so they use less CPU and battery when nothing is happening. New work still starts right away, because toryo wakes them as soon as you queue it.",
+  "pub_date": "2026-11-20T01:54:30.890Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRvcnlvIHJlbGVhc2Uga2V5ClJVUmIzSHJRYlJ6dXg3STRSZGhsZ09HUnR2SUN6UElxTURKUHdHWERCQXN6RVYyYnhXbHdNQkkyc1R1eXNWeTJSeDdEUWtkT0NLNFNlbks5eVR4WHVWZGRpRXZmSm4zUE5Rbz0KdHJ1c3RlZCBjb21tZW50OiB0b3J5byB2MS42LjAgVG9yeW8tYXJtNjQuYXBwLnRhci5negpBOHhETUQvS21GaExxN1V6MzJwY2tGVGtTdk13WVJiS1IvN3VnZ2dzOG9oV0QrdHpVRDJ6UjhpN2RxMzNyMWN6UmFvTTdJRCtsYnRaVkJ4ZlpOQkhEUT09Cg==",
-      "url": "https://github.com/ForceBuilders/toryo-releases/releases/download/v1.6.0/Toryo-arm64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRvcnlvIHJlbGVhc2Uga2V5ClJVUmIzSHJRYlJ6dXgra3hTQmJGSWY3b1lBanNHc2s1RTZ2RDJNTEdMVzdEZjFFWjVaYlFGcGhpOTRMQ0xHaE9hYkV5bUo0b2djVi8xbjBRcGNJZkwzelQ4di9tQzFyVzZ3RT0KdHJ1c3RlZCBjb21tZW50OiB0b3J5byB2MS42LjEgVG9yeW8tYXJtNjQuYXBwLnRhci5negpGc2NuZDZiQmwxNWE0clNXZmNtaXVZUXYzVlEyYWU3TVBZbjBjWnU0TGd0MFl2Z2JiR2tRYmxGRDVwSVRkR0ZEdHhWeW1wNWhmN2IxQnJ5UE5GS0lBQT09Cg==",
+      "url": "https://github.com/ForceBuilders/toryo-releases/releases/download/v1.6.1/Toryo-arm64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRvcnlvIHJlbGVhc2Uga2V5ClJVUmIzSHJRYlJ6dXgwQjByUnFrdytSRTEzUzRiOTdzQ05LL3dDTGNnL0FkNC8rS2NYSzdmOWd0N3lGMmtLcUtrQzA5cDdzUUJhb3NMb1NmWFNrV3BTWmNHSThpRThVdnN3az0KdHJ1c3RlZCBjb21tZW50OiB0b3J5byB2MS42LjAgVG9yeW8teDY0LmFwcC50YXIuZ3oKeDRqRDM5TjRJNkV3QXhRdDFlMnRMWnV3YUErK1hPVitYdEJRN0tjaHVxSjVVSXNQMkFJUzVGaDJmVzgxQXFLNVNWYnhoQkZoNS8wbFpxcFYwNEg3QlE9PQo=",
-      "url": "https://github.com/ForceBuilders/toryo-releases/releases/download/v1.6.0/Toryo-x64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRvcnlvIHJlbGVhc2Uga2V5ClJVUmIzSHJRYlJ6dXgzVy9jRUNYVzVlRG9iS2djUnlPbjFWT2VPU3EwenBRcnczZzYreTdzcDUzVnpiVTZFV01MR0xzK1pmeVd0SkhuTk54dE1INzVTNndUSHBMWWdoWWFRMD0KdHJ1c3RlZCBjb21tZW50OiB0b3J5byB2MS42LjEgVG9yeW8teDY0LmFwcC50YXIuZ3oKNDhkcktsS29DV0cxeFEwS3lKNXdZVEF5bms2ekFKb2lJTjdSVzA1Y01vbGo5eUFBeGNNM2t2bHRzRk43MnpCUWJQM3JnMkdMN1JSM2h4SDhaUlJGQXc9PQo=",
+      "url": "https://github.com/ForceBuilders/toryo-releases/releases/download/v1.6.1/Toryo-x64.app.tar.gz"
     },
     "linux-x86_64-appimage": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRvcnlvIHJlbGVhc2Uga2V5ClJVUmIzSHJRYlJ6dXgxZTA5ZzRmbUhTNTYvbXp4bFlrbEMrcFhvbmdkbnhBdSt5TW92ZGx6T01rTVZCNUVxSmo2QkkrWDJBNm0rUG1tOUkxNy90U2xIanl3TXRpVFpRSTdBRT0KdHJ1c3RlZCBjb21tZW50OiB0b3J5byB2MS42LjAgdG9yeW8tMS42LjAtbGludXgteDY0LkFwcEltYWdlCk04bUJndVZ4aW8zbTZYcEpjNlBiMkZGYk9VRjN3enZkSXVUYjRMRytRdGtIa0hPMDVJQTBlaGFnMklmUXlIdTVsZ1lzU0gyRkFscmFoMmw1SlloWUFBPT0K",
-      "url": "https://github.com/ForceBuilders/toryo-releases/releases/download/v1.6.0/toryo-1.6.0-linux-x64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRvcnlvIHJlbGVhc2Uga2V5ClJVUmIzSHJRYlJ6dXg4L0dHNHNSU2czVTA2blVIQzlGZWJmT1ZIN3NiYmU1dWZCV2ZFYU5YNnlsdjlTWHhrVmo1eDQ2YTMrMEN5SGI0QzV6RGMxcHMyekZEVzZIUnRoMFVnbz0KdHJ1c3RlZCBjb21tZW50OiB0b3J5byB2MS42LjEgdG9yeW8tMS42LjEtbGludXgteDY0LkFwcEltYWdlClVFU3VXMVloaVVJYWIvSnVFMmJBa29uWVhLREFxdXE1blhTcldWaE5qcnMxQS9QQjlsMkJLbGhuT2hkSmtWbHBEWmo5aXJLckVoTlFpaGE2VUQ2ckRnPT0K",
+      "url": "https://github.com/ForceBuilders/toryo-releases/releases/download/v1.6.1/toryo-1.6.1-linux-x64.AppImage"
     },
     "linux-aarch64-appimage": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRvcnlvIHJlbGVhc2Uga2V5ClJVUmIzSHJRYlJ6dXg4ZkVGbTR0OHIvbHBkRnN1S3laQUw0bXVCT0NDcWhXT0pMQm5CWk42ZWxaQm5tVnQrZnJiZDk4Mmh5bmZaZjVDYVlUSGxjbEhzY3l4c3BxOG5BZHlncz0KdHJ1c3RlZCBjb21tZW50OiB0b3J5byB2MS42LjAgdG9yeW8tMS42LjAtbGludXgtYXJtNjQuQXBwSW1hZ2UKQXZRd0lwOFpmZkhhQXY5UC9KWDZnZExqdFBDZDhyeTdsMGJzMlpYUCtGUElNWlJzUHdET3EzdnRYVU5MY2tJZllQOVVna08vQi9yN3RxUHQ5OHVnRFE9PQo=",
-      "url": "https://github.com/ForceBuilders/toryo-releases/releases/download/v1.6.0/toryo-1.6.0-linux-arm64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRvcnlvIHJlbGVhc2Uga2V5ClJVUmIzSHJRYlJ6dXg5WWhZUG9iK2FmZVdPcU9QUjVhS1V5VGVOMmZrZlJvN3h1WUlkaFd5aHFkME9ic042cnZJaTdmWThVbUZLTnhKdENXMzFrUVc2UEtpT09GQ0hSZEFnWT0KdHJ1c3RlZCBjb21tZW50OiB0b3J5byB2MS42LjEgdG9yeW8tMS42LjEtbGludXgtYXJtNjQuQXBwSW1hZ2UKYzE3Nzkrb0FQNlpBeFlwdEhnVWE0UjZzWnVSdGp3U0tpYWMrSFFPeGVzWTJRTHJZdjZLUDdHdTN4aFhrTnlScVVPbXdKMlZKVitPZWhEc1dvWjBuQ2c9PQo=",
+      "url": "https://github.com/ForceBuilders/toryo-releases/releases/download/v1.6.1/toryo-1.6.1-linux-arm64.AppImage"
     }
   }
 }
